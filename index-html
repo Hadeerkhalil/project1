@@ -5,6 +5,11 @@
     <meta name="description" content="This page contains all the things I'm learning how to create as i learn html "> 
     <title>Cactus&co</title>
  <link rel="icon" href="logo.png" type="image/x-icon"> 
+ <style> 
+    html {
+        font-size: 22px;
+    }
+ </style>
 </head>
 <body>
     <h1>Welcome To CACTUS & CO</h1>
