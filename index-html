@@ -1,0 +1,13 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hadeer Khalil">
+    <meta name="description" content="This page contains all the things I'm learning how to create as i learn html "> 
+    <title>Cactus&co</title>
+ <link rel="icon" href="logo.png" type="image/x-icon"> 
+</head>
+<body>
+    <h1>Welcome To CACTUS & CO</h1>
+    <p>Every Brand Has a Story, What's Yours</p>
+</body>
+</html>
