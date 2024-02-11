@@ -5,3 +5,12 @@ body {
     background-color: black;
     color: aliceblue;
 }
+a {
+    color: aliceblue;
+}
+a:visited {
+    color: lightgray;
+}
+a :hover, a :active {
+    color: #eee;
+}
