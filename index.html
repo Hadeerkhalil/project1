@@ -23,6 +23,7 @@ title="home" width="1440" height="525" loading="lazy">
         <a href="#offers">Our offers!</a>
       </li>
       <li><a href="#address">Our Address!</a></li>
+      <li><a href="#contact">Contact Us!</a></li>
     </ul>
     </nav>
     </header>
@@ -44,9 +45,60 @@ title="home" width="1440" height="525" loading="lazy">
       <summary>
         Guiss the number of hours I code per day 
       </summary>
-       <p>I start working at<time datetime="08:00"> 8 am 
-      </time> and I write code for <time duration="PT3H"></time> 3 hours
-        </p>
+       <br>
+
+       <table>
+        <caption>My Daily Scheduale</caption>
+        <thead>
+        <tr>
+          <th scope="col">Day Time</th>
+          <th scope="col">Time</th>
+          <th scope="col">Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th scope="row">Morning</th>
+          <td>
+            <time datetime="08:00">8 am</time>- <time datetime="11:00">11 am</time>
+          </td>
+          <td>write Code</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Break</th>
+          <td>
+            <time datetime="11:00">11 am</time>- <time datetime="12:00">12 pm</time>
+          </td>
+          <td>Eat Lunch</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Afternoon</th>
+          <td>
+            <time datetime="12:00">12 pm</time>- <time datetime="17:00">5 pm</time>
+          </td>
+          <td>Study For Other Courses</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Evening</th>
+          <td rowspan="2">All Other Time</td>
+          <td>Free Time</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Night</th>
+          <td>Sleep</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"> And that's What I do every day, 5 days a week.
+            Just eat, sleep, code .. and recharge!</td>
+        </tr>
+      </tfoot>
+       </table>
     </details>
   </aside>  
   </article>
@@ -62,7 +114,7 @@ title="home" width="1440" height="525" loading="lazy">
     <img src="img/2.png" alt="Design Thinking Process Image" title="Our Vision" width="1380" height="935" loading="lazy"> 
 </figure>
 </section>
-    <h3>Our Vision</h3>
+    <h2>Our Vision</h2>
     <p>Our vision is to be a leading marketing agency, renowned for our innovative and strategic approach towards <em>achieving our clients’ business goals.</em></p>
 
     <br>
@@ -84,10 +136,19 @@ title="home" width="1440" height="525" loading="lazy">
 
     
       <hr>
-      <h3>Our Address</h3>
+      <h2>Our Address</h2>
      <address>New Cairo, Cairo , Egypt</address>
   </section>
-    
+    <hr>
+
+    <article id="Contact">
+<h2>Contact Us</h2>
+<p>I'd really like to hear from you !</p>
+<form action="https://httpbin.org/get" method="get">
+  <label for="FirstName">First Name</label>
+ <input type="text" name="FirstName" id="FirstName" placeholder="Diaa">
+</form>
+    </article>
 </main>
   <hr>
     <footer>
