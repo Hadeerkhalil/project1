@@ -144,9 +144,107 @@ title="home" width="1440" height="525" loading="lazy">
     <article id="Contact">
 <h2>Contact Us</h2>
 <p>I'd really like to hear from you !</p>
+<fieldset>
+  <legend>Personal Info</legend>
 <form action="https://httpbin.org/get" method="get">
+  <p>
   <label for="FirstName">First Name</label>
- <input type="text" name="FirstName" id="FirstName" placeholder="Diaa">
+ <input type="text" name="FirstName" id="FirstName" placeholder="Diaa" autocomplete="on" required autofocus>
+  </p>
+
+  <p>
+ <label for="LastName">Last Name</label>
+ <input type="text" name="LastName" id="LastName" placeholder="El Bess" autocomplete="on" required> </p>
+
+ <p>
+  <label for="password">Password &nbsp;</label>
+  <input type="password" name="password" id="password" placeholder="Your Secret" autocomplete="on" required> 
+ </p>
+
+ <p>
+  <label for="phone">Phone &nbsp; &nbsp; &nbsp; </label>
+  <input type="tel" name="phone" id="phone" placeholder="555-5555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autocomplete="on" required> 
+ </p>
+ <p>
+  <label for="decade">Favorite Decade &nbsp;</label>
+  <input type="number" name="decade" id="decade" min="1940" max="2020" step="10" value="1960"> 
+ </p>
+ <p>
+  <label for="coffee">Favorite Coffee</label>
+  <select name="coffee" id="Coffee">
+    <optgroup label="Coffees">
+    <option value="regular coffee">Regular Coffee</option>
+    <option value="iced coffee">Iced Coffee</option>
+    </optgroup>
+  <optgroup label="Espresso">
+    <option value="latte" selected>Latte</option>
+    <option value="americano">Americano</option>
+    <option value="cappucino">Cappucino</option>
+  </optgroup>
+    <option value="other">Other</option>
+  </select>
+ </p>
+ <p>
+  <label for="Favorite-desert">Favorite Desert</label>
+  <input type="text" name="Favorite desert" id="Favorite-desert" list="desert-list">
+  <datalist id="desert-list">
+     <option value="cheese cake">
+     <option value="donuts">
+     <option value="cinnabon">
+     <option value="molten cake">
+  </datalist>
+</p>
+</fieldset>
+<fieldset>
+  <legend>What's your favorite food?</legend>
+  <p>
+   <input type="radio" name="food" id="Tacos" value="Tacos">
+   <label for="Tacos">Tacos</label>
+  </p> 
+
+  <p>
+    <input type="radio" name="food" id="Pizza" value="Pizza">
+    <label for="Pizza">Pizza</label>
+   </p> 
+
+   <p>
+    <input type="radio" name="food" id="Other" value="Other">
+    <label for="Other">Other</label>
+   </p> 
+</fieldset>
+<br>
+<fieldset>
+  <legend>What's your favorite pet?</legend>
+  <p>
+    <input type="checkbox" name="Pets" id="Dogs" value="Dogs">
+    <label for="Dogs">Dogs</label>
+  </p>
+
+  <p>
+    <input type="checkbox" name="Pets" id="Cats" value="Cats">
+    <label for="Cats">Cats</label>
+  </p>
+
+  <p>
+    <input type="checkbox" name="Pets" id="Birds" value="Birds">
+    <label for="Birds">Birds</label>
+  </p>
+
+  <p>
+    <input type="checkbox" name="Pets" id="Other-pets" value="Other">
+    <label for="Other">Other</label>
+  </p>
+</fieldset>
+<br>
+<fieldset>
+  <legend>Send me a note</legend>
+  <label for="message">Your Message:</label>
+  <br>
+  <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+</fieldset>
+<br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
 </form>
     </article>
 </main>
